@@ -1,3 +1,10 @@
+import NavBar from "@/componenets/NavBar";
+
 export default function Potato() {
-    return "about us";
+    return (
+        <div>
+            <NavBar />
+            <h1>about</h1>
+        </div>
+    )
 }
